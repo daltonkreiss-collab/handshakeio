@@ -5,10 +5,11 @@ import MarketOpportunity from './components/MarketOpportunity';
 import Pipeline from './components/Pipeline';
 import SignalTriggers from './components/SignalTriggers';
 import Triggers from './components/Triggers';
-// ProcessSlider removed from render — section deleted per request
 import Customization from './components/Customization';
 import LeadMagnet from './components/LeadMagnet';
 import Footer from './components/Footer';
+import FloatingCTA from './components/FloatingCTA';
+import InlineCTA from './components/InlineCTA';
 
 const App: React.FC = () => {
   return (
@@ -19,11 +20,13 @@ const App: React.FC = () => {
         <MarketOpportunity />
         <SignalTriggers />
         <Pipeline />
-  <Customization />
-  <Triggers />
+        <InlineCTA />
+        <Customization />
+        <Triggers />
         <LeadMagnet />
       </main>
       <Footer />
+      <FloatingCTA />
     </div>
   );
 };

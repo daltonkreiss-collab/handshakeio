@@ -1,9 +1,11 @@
 import React from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
+import MarketOpportunity from './components/MarketOpportunity';
 import Pipeline from './components/Pipeline';
+import SignalTriggers from './components/SignalTriggers';
 import Triggers from './components/Triggers';
-import ProcessSlider from './components/ProcessSlider';
+// ProcessSlider removed from render — section deleted per request
 import Customization from './components/Customization';
 import LeadMagnet from './components/LeadMagnet';
 import Footer from './components/Footer';
@@ -14,10 +16,11 @@ const App: React.FC = () => {
       <Navbar />
       <main>
         <Hero />
-  <Pipeline />
-  <Triggers />
+        <MarketOpportunity />
+        <SignalTriggers />
+        <Pipeline />
   <Customization />
-  <ProcessSlider />
+  <Triggers />
         <LeadMagnet />
       </main>
       <Footer />

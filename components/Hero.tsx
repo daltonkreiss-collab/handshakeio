@@ -26,24 +26,24 @@ const Hero: React.FC = () => {
         <div className="space-y-8">
           <div className="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-slate-900 border border-slate-700 text-xs font-mono text-emerald-400">
             <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
-            <span>SYSTEM_ONLINE // MONITORING SEC_EDGAR</span>
+            <span>&gt; GROWTH_MODE_ENABLED</span>
           </div>
           
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-white leading-tight">
             Identify Greenfield <span className="text-emerald-400">Automation Projects</span> Before the RFP.
           </h1>
           
-          <p className="text-lg text-slate-400 max-w-xl leading-relaxed">
+          <p className="text-xl lg:text-2xl text-slate-400 max-w-xl leading-relaxed">
             Market intelligence for material handling integrators to identify high-intent automation projects, time the outreach perfectly, and connect with the right decision-makers.
           </p>
-          
+
           <div className="flex flex-col sm:flex-row gap-4">
             <a
               href="#report"
-              className="inline-flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded bg-emerald-600 hover:bg-emerald-500 text-white transition-all shadow-lg shadow-emerald-500/20"
+              className="inline-flex items-center justify-center px-10 py-4 border border-transparent text-lg font-medium rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white transition-all shadow-lg shadow-emerald-500/20"
             >
               Get Sample Opportunity Report
-              <ArrowRight className="ml-2 h-4 w-4" />
+              <ArrowRight className="ml-3 h-5 w-5" />
             </a>
           </div>
         </div>
@@ -53,7 +53,7 @@ const Hero: React.FC = () => {
           <img
             src={computerReportImg}
             alt="Computer with report"
-            className="w-[130%] max-w-none h-auto"
+            className="w-[150%] max-w-none h-auto"
           />
         </div>
       </div>

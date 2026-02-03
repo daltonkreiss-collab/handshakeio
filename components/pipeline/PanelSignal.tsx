@@ -9,7 +9,7 @@ const PanelSignal: React.FC = () => {
         <div className="space-y-4">
           <div className="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-slate-900 border border-slate-700 text-xs font-mono text-emerald-400">
             <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
-            <span>the right moment</span>
+            <span>the-right-moment</span>
           </div>
           <h3 className="text-4xl lg:text-5xl font-bold text-white">The Signal</h3>
           <p className="text-xl lg:text-2xl text-slate-400 leading-relaxed">

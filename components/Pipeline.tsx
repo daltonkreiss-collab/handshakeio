@@ -8,9 +8,9 @@ import PanelConnection from './pipeline/PanelConnection';
 gsap.registerPlugin(ScrollTrigger);
 
 const stages = [
-  { name: 'Signal', label: 'the right moment' },
-  { name: 'Intel', label: 'the right reason' },
-  { name: 'Connection', label: 'the right people' },
+  { name: 'Signal', label: 'the-right-moment' },
+  { name: 'Intel', label: 'the-right-reason' },
+  { name: 'Connection', label: 'the-right-people' },
 ];
 
 const Pipeline: React.FC = () => {
@@ -69,12 +69,12 @@ const Pipeline: React.FC = () => {
       {/* Section header */}
       <div className="flex flex-col items-center justify-center text-center px-4 py-12">
         <div className="space-y-4 max-w-3xl">
-          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white tracking-tight whitespace-nowrap">
-            Eliminate Research Latency.
+          <span className="text-emerald-500 font-mono text-sm tracking-wider uppercase">&gt;_ACTION_VS._INFO</span>
+          <h2 className="text-3xl md:text-4xl font-bold text-white">
+            Own the <span className="text-emerald-400">Opportunity</span>, Not Just the Alert.
           </h2>
-          <p className="text-xl text-slate-400 leading-relaxed">
-            We don't just alert you to an opportunity
-            <br />we build the bridge to the decision-maker.
+          <p className="text-xl lg:text-2xl text-slate-400 leading-relaxed">
+            We don't just find the signal; we build the bridge to the decision-maker enabling frictionless messaging.
           </p>
         </div>
       </div>

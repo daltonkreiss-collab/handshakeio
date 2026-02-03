@@ -20,7 +20,7 @@ const Customization: React.FC = () => {
               We recognize that every integrator has a "Sweet Spot." Whether you specialize in F&B, Consumer Goods, or specific geographic regions, we optimize our monitoring filters to align with your unique technical advantages.
             </p>
             <p className="text-lg text-slate-400 mb-8 leading-relaxed">
-              We work with you to refine the signal until you are only seeing projects you are equipped to win.
+              We work with you every month to refine the signal until you are only seeing projects you are equipped to win. Once optimized, we wrap your solution with user-friendly automations that integrate directly into your existing sales workflow.
             </p>
           </div>
 
@@ -43,11 +43,10 @@ const Customization: React.FC = () => {
               <p className="text-sm text-slate-500">ASRS, Conveyors, Robotics, AGV deployments.</p>
             </div>
             
-            <div className="bg-slate-950 p-6 rounded-lg border border-slate-800 flex items-center justify-center">
-              <div className="text-center">
-                <span className="block text-3xl font-bold text-emerald-500 mb-1">100%</span>
-                <span className="text-xs text-slate-400 uppercase tracking-widest">Tailored</span>
-              </div>
+            <div className="bg-slate-950 p-6 rounded-lg border border-slate-800 hover:border-emerald-500/30 transition-colors">
+              <Package className="h-8 w-8 text-slate-300 mb-4" />
+              <h4 className="text-white font-bold mb-2">Goldy Locks Size</h4>
+              <p className="text-sm text-slate-500">Target companies the right size for your capacity.</p>
             </div>
           </div>
 

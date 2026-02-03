@@ -5,7 +5,17 @@ const LeadMagnet: React.FC = () => {
   return (
     <section id="report" className="py-24 bg-slate-950 relative">
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-emerald-900/20 via-slate-950 to-slate-950"></div>
-      
+
+      {/* Strategic Advantage Headline */}
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center mb-16">
+        <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6 leading-tight">
+          The Strategic Advantage Your Competitors Don't Have.
+        </h2>
+        <p className="text-lg md:text-xl text-slate-400 leading-relaxed max-w-4xl mx-auto">
+          Think of it as 10 highly trained research assistants working around the clock—reading through hundreds of thousands of dense SEC filings to pinpoint your perfect automation projects, identifying the specific decision-makers, and drafting every message for you... all for a fraction of one entry-level salary.
+        </p>
+      </div>
+
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden shadow-2xl">
           <div className="md:flex">

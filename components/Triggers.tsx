@@ -1,22 +1,22 @@
 import React from 'react';
-import { Factory, Layers, Cpu, TrendingUp } from 'lucide-react';
+import { BarChart3, FileSearch, Globe, TrendingUp } from 'lucide-react';
 
 const Triggers: React.FC = () => {
   const triggers = [
     {
-      icon: <Cpu className="h-8 w-8 text-emerald-400" />,
-      title: "Modernization",
-      description: "Phrases like \"factory 4.0\" or \"modernization of manufacturing capabilities\" indicate board-level priority for automation.",
+      icon: <BarChart3 className="h-8 w-8 text-emerald-400" />,
+      title: "Capex & Capacity Velocity",
+      description: "We track active utilization rates and quarterly deployment. Identify companies like Jabil that have already deployed over $175M of a $750M automation budget in Q1.",
     },
     {
-      icon: <Layers className="h-8 w-8 text-emerald-400" />,
-      title: "Facility Consolidation",
-      description: "M&A activity often leads to massive warehouse integration projects as supply chains are merged.",
+      icon: <FileSearch className="h-8 w-8 text-emerald-400" />,
+      title: "Factory 4.0 Mandates",
+      description: "Our system scans 10-K filings for \"Dark Factory\" and \"Industry 4.0\" mandates. We pinpoint board-level initiatives aimed at reducing labor dependency through high-speed automation.",
     },
     {
-      icon: <Factory className="h-8 w-8 text-emerald-400" />,
-      title: "Dark Factories",
-      description: "Direct signals of intent for \"lights off\" manufacturing and end-to-end automation investments.",
+      icon: <Globe className="h-8 w-8 text-emerald-400" />,
+      title: "Greenfield Timelines",
+      description: "Isolate expansion projects in key global markets like Pune, India or Vietnam. We identify the exact 9-month window where the remaining $500M+ in capex budget will be awarded.",
     },
   ];
 
@@ -32,7 +32,7 @@ const Triggers: React.FC = () => {
             Look for "Capital Intent," Not Just "Leads."
           </h2>
           <p className="text-lg text-slate-400">
-            We don’t just find companies; we find moments. Our system scans 10-K and 8-K filings for specific manufacturing shifts that require integrated material handling.
+            We don't just identify companies; we identify intent. By monitoring triggers hidden in 100-page SEC filings and monitoring investor calls, we pinpoint the exact manufacturing initiatives that demand integrated material handling expertise.
           </p>
         </div>
 

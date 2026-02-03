@@ -14,10 +14,10 @@ const App: React.FC = () => {
       <Navbar />
       <main>
         <Hero />
-        <Pipeline />
-        <Triggers />
-        <ProcessSlider />
-        <Customization />
+  <Pipeline />
+  <Triggers />
+  <Customization />
+  <ProcessSlider />
         <LeadMagnet />
       </main>
       <Footer />
